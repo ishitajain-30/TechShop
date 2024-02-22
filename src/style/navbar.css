@@ -1,0 +1,118 @@
+.navbar-container-1 {
+  display: flex;
+  box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container-2 {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-name {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  height: 60px;
+  margin: 5px;
+}
+
+.name {
+  margin: 5px;
+  justify-content: center;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.input-field input {
+  box-sizing: border-box;
+  width: 300px;
+  height: 30px;
+  background: #f0ebce;
+  border: 1px solid #000000;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.search-icon-button {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 30px;
+  background: #aa8b56;
+  margin-left: -5px;
+  border: 1px solid #000000;
+  border-radius: 0px 40px 40px 0px;
+}
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 20px;
+}
+
+.account-container {
+  margin: 5px;
+}
+
+.favourite-container {
+  margin: 5px;
+}
+
+.cart-container {
+  margin: 5px;
+}
+
+.left-container {
+  width: 50%;
+  margin: 5px;
+}
+
+.catogories-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  background-color: #395144;
+  color: #fff;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.catogories {
+  margin: 0px;
+  margin-left: 2px;
+}
+.right-container {
+  display: flex;
+  flex: 0.6;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+  margin-right: 20px;
+  width: 50%;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
